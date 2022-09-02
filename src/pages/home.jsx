@@ -15,6 +15,7 @@ export default function Home() {
     //let stroke = "text-9xl"
 
 
+
     return (
 
 
@@ -30,7 +31,7 @@ export default function Home() {
                 <div className={`
                     grid grid-cols-2 gap-5  
                     w-full h-full 
-                    `}>
+                    `} id="Home">
 
                     <div className="texto flex flex-col ">
                         <div className={`
@@ -61,6 +62,11 @@ export default function Home() {
                 </div>
 
             </div>
+
+            {/* <script type="text/javascript">
+
+                setInterval(action, 1000);
+            </script> */}
         </div>
     )
 

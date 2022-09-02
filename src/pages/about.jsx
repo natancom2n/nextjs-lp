@@ -1,7 +1,7 @@
 export default function About() {
 
-    return(
-        <div className={`
+    return (
+        <div id="About" className={`
         flex justify-center items-center 
         font-bold text-blue-500 
         bg-white

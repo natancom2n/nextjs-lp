@@ -1,5 +1,6 @@
 import Home from "../../pages/home"
 import About from "../../pages/about"
+import Portifolio from "../../pages/portifolio"
 import Topo from "./Topo"
 
 interface LayoutProps {
@@ -21,6 +22,9 @@ export default function Layout(props: LayoutProps) {
             </div>
             <div>
                 <About />
+            </div>
+            <div>
+                <Portifolio />
             </div>
         </div>
 
